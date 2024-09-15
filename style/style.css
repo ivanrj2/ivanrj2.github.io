@@ -97,3 +97,20 @@ body {
     padding: 10px;
     text-align: center;
 }
+
+.hero-nav-bubble{
+    background-color: #4caf4f4d;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 2px 5px;
+    cursor: pointer;
+}
+
+.active-hero-nav-bubble{
+    background-color: #4CAF4F;
+}
+
+.img-person{
+    width: 80%;
+}

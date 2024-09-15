@@ -7,9 +7,26 @@
       opacity: 1;
     }
   }
+
+@keyframes fadeInFromRight{
+  from {
+    opacity: 0;
+    right: 100;
+    width: 0;
+  }
+  to {
+    opacity: 1;
+    right: 0;
+    width: 100%;
+  }
+}
   
-  /* Class that applies the animation */
+  
   .fade-in {
-    animation: fadeIn 0.1s ease-in forwards; /* 1 second fade-in */
+    animation: fadeIn 0.1s ease-in forwards;
+  }
+
+  .fade-in-right{
+    animation: fadeInFromRight 0.1s ease-in forwards;
   }
   
