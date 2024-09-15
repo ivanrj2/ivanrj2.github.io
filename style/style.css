@@ -142,3 +142,29 @@ body {
     border: rgba(255, 255, 255, 0.542) solid;
     width: 40vb;
 }
+
+.achievements{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+}
+
+.achievements>.icon{
+    margin: auto;
+    width: 80%;
+}
+
+.achievments-section{
+    display: flex;
+    justify-content: center;
+    padding: 8rem;
+}
+
+.stat-section{
+    margin-left: 2rem;
+}
+
+.small-text{
+    font-size: 0.75rem;
+}

@@ -16,6 +16,30 @@
     .cards-section{
         display: grid;
     }
+    .achievements{
+        display: grid;
+        margin: auto;
+        width: 80%;
+        padding: 4rem;
+    }
+    .achievments-section{
+        display: grid;
+        margin: auto;
+        padding: 3rem;
+    }
+
+    .stat-section{
+        margin-left: 0;
+    }
+
+    .content-text-centered{
+        display: grid;
+        margin: auto;
+        justify-content: center;
+        padding: 2rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
 }
 
 
