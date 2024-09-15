@@ -1,0 +1,34 @@
+
+@media screen and (max-width:950px) {
+
+    .nav-pages{
+        display: none;
+    }
+
+    .nav-btns{
+        display: none;
+    }
+
+    .dropdown{
+        display: block;
+    }
+}
+
+@media screen and (max-width:1062px){
+    .wordmark{
+        display: none;
+    }
+    
+
+    .hero-title{
+        margin: 10px 0;
+    }
+
+    .hero-title-text{
+        font-size: 2rem;
+    }
+
+    .nav{
+        justify-content: space-between;
+    }
+}
