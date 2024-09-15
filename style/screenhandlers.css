@@ -59,6 +59,15 @@
     .community-2>.content>.client-logo-section>img{
         width: 10%;
     }
+
+    footer{
+        display: grid;
+    }
+
+    .footer-section{
+        margin-bottom: 20px;
+        padding: 40px 30px;
+    }
 }
 
 

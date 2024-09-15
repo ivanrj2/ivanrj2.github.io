@@ -231,3 +231,43 @@ body {
 .muted{
     color: #717171;
 }
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #263238;
+    padding: 40px 100px;
+}
+
+.white{
+    color: white;
+}
+
+.footer-link{
+    color: #F5F7FA;
+    margin: 3px 0;
+}
+
+.footer-section{
+    display: grid;
+}
+
+.input{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+}
+
+.footer-input{
+    background-color: #515b60;
+}
+
+.social-bubble{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #3b464c;
+}
