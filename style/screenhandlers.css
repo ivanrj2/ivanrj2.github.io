@@ -1,33 +1,32 @@
-
 @media screen and (max-width:950px) {
 
-    .nav-pages{
+    .nav-pages {
         display: none;
     }
 
-    .nav-btns{
+    .nav-btns {
         display: none;
     }
 
-    .dropdown{
+    .dropdown {
         display: block;
     }
 
-    .cards-section{
+    .cards-section {
         display: grid;
     }
-    
-    .achievments-section{
+
+    .achievments-section {
         display: grid;
         margin: auto;
         padding: 3rem;
     }
 
-    .stat-section{
+    .stat-section {
         margin-left: 0;
     }
 
-    .content-text-centered{
+    .content-text-centered {
         display: grid;
         margin: auto;
         justify-content: center;
@@ -36,41 +35,54 @@
         text-align: center;
     }
 
-    .info-card-section{
+    .info-card-section {
         display: grid;
     }
 
-    .info-card{
+    .info-card {
         margin-bottom: 55px;
     }
 
-    .updates{
+    .updates {
         padding: 200px 30px;
+    }
+
+    .community-2 {
+        display: grid;
+    }
+
+    .community-2>img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .community-2>.content>.client-logo-section>img{
+        width: 10%;
     }
 }
 
 
-@media screen and (max-width:1062px){
-    .wordmark{
+@media screen and (max-width:1062px) {
+    .wordmark {
         display: none;
     }
-    
 
-    .hero-title{
+
+    .hero-title {
         margin: 10px 0;
     }
 
-    .hero-title-text{
+    .hero-title-text {
         font-size: 2rem;
     }
 
-    .nav{
+    .nav {
         justify-content: space-between;
     }
 }
 
-@media screen and (max-width:1300px){
-    .achievements{
+@media screen and (max-width:1300px) {
+    .achievements {
         display: grid;
         margin: auto;
         width: 100%;

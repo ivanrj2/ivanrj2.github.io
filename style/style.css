@@ -211,3 +211,23 @@ body {
 .info-card-content h2 {
     margin-bottom: 10px;
 }
+
+.community-2{
+    padding: 10%;
+    display: flex;
+}
+
+.community-2>img{
+    width: 25%;
+    margin: auto 20px;
+}
+
+.community-2>.content>.client-logo-section{
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.muted{
+    color: #717171;
+}
