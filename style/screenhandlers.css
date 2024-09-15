@@ -35,6 +35,18 @@
         margin-bottom: 3rem;
         text-align: center;
     }
+
+    .info-card-section{
+        display: grid;
+    }
+
+    .info-card{
+        margin-bottom: 55px;
+    }
+
+    .updates{
+        padding: 200px 30px;
+    }
 }
 
 

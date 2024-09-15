@@ -168,3 +168,46 @@ body {
 .small-text{
     font-size: 0.75rem;
 }
+
+.updates{
+    display: grid;
+    padding: 100px 20vb;
+    text-align: center;
+    align-items: center;
+}
+
+.info-card-section{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.info-card {
+    margin: 3px 0.5rem;
+    display: flex;
+    flex-direction: column;   /* Stack elements vertically */
+    align-items: center;      /* Center elements horizontally */
+    justify-content: space-between;  /* Space content evenly */
+}
+
+.info-card>img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;  /* Rounded corners for the top of the image */
+}
+
+.info-card-content {
+    background-color: #F5F7FA;
+    padding: 15px;
+    width: 80%;
+    text-align: center;   /* Center the text inside */
+    border-radius: 0 0 10px 10px;  /* Rounded corners for the bottom */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);  /* Same shadow effect */
+    z-index: 3;
+    margin: -40px;
+}
+
+.info-card-content h2 {
+    margin-bottom: 10px;
+}
