@@ -61,6 +61,12 @@ body {
     color: #4D4D4D;
 }
 
+.title{
+    color: #18191fc6;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
 .section{
     width: 100%;
 }
@@ -113,4 +119,26 @@ body {
 
 .img-person{
     width: 80%;
+}
+
+.client-logo-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.cards-section{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card{
+    padding: 10px 25px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    border: rgba(255, 255, 255, 0.542) solid;
+    width: 40vb;
 }

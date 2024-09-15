@@ -12,7 +12,12 @@
     .dropdown{
         display: block;
     }
+
+    .cards-section{
+        display: grid;
+    }
 }
+
 
 @media screen and (max-width:1062px){
     .wordmark{
