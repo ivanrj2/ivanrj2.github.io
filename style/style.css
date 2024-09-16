@@ -268,7 +268,36 @@ footer{
 .social-bubble{
     width: 30px;
     height: 30px;
-    padding: 5px;
+    padding: auto;
     border-radius: 50%;
     background-color: #3b464c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forminput{
+    border: 1px solid #4CAF4F;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px auto;
+}
+
+.form{
+    display:grid;
+    text-align: center;
+}
+
+.form-btn{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.login{
+    width: 30%;
+    margin: 10px auto;
+    min-width: 300px;
+    padding: 40px;
+    border: 1px solid #4CAF4F;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
 }
