@@ -42,3 +42,14 @@ heroContent.addEventListener("animationend", ()=>{
         heroContent.classList.remove("fade-in-right");
     }
 });
+
+
+
+let currentIndex = 0;
+setInterval(()=>{
+    currentIndex++;
+    if(currentIndex >= heroSectionContents.length){
+        currentIndex = 0;
+    }
+    heroNavBubbles[currentIndex].click();
+}, 5000);
