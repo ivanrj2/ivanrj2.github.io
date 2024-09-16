@@ -24,6 +24,8 @@ const bubbleclickEvent = (id, data) => {
         }
     }
 
+    currentHeroIndex = id;
+
     heroTitleText1.innerText = data[id].title1;
     heroTitleText2.innerText = data[id].title2;
     heroText.innerText = data[id].text;

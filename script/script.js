@@ -1,6 +1,8 @@
 let hamburgerOn = false;
 hamburger.addEventListener('click', dropdownClickHandler);
 
+let currentHeroIndex = 0;
+
 const heroSectionContents = [
     {
         title1: "Lessons and insights",
@@ -45,11 +47,10 @@ heroContent.addEventListener("animationend", ()=>{
 
 
 
-let currentIndex = 0;
 setInterval(()=>{
-    currentIndex++;
-    if(currentIndex >= heroSectionContents.length){
-        currentIndex = 0;
+    currentHeroIndex++;
+    if(currentHeroIndex >= heroSectionContents.length){
+        currentHeroIndex = 0;
     }
-    heroNavBubbles[currentIndex].click();
+    heroNavBubbles[currentHeroIndex].click();
 }, 5000);
