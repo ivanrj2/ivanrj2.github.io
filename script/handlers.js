@@ -3,11 +3,13 @@ const dropdownClickHandler = () => {
     if (hamburgerOn){
         hamburger.src = "assets/cross.svg";
         dropdownMenu.style.display = "grid";
-        dropdownMenu.classList.add("fade-in")
+        dropdownMenu.classList.add("fade-in");
+        document.body.style.overflow = "hidden";
     }else{
         hamburger.src = "assets/hamburger.svg";
         dropdownMenu.style.display = "none";
-        dropdownMenu.classList.remove("fade-in")
+        dropdownMenu.classList.remove("fade-in");
+        document.body.style.overflow = "visible";
     }
 };
 
