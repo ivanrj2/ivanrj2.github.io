@@ -35,18 +35,6 @@
         text-align: center;
     }
 
-    .info-card-section {
-        display: grid;
-    }
-
-    .info-card {
-        margin-bottom: 55px;
-    }
-
-    .updates {
-        padding: 200px 30px;
-    }
-
     .community-2 {
         display: grid;
     }
@@ -92,6 +80,20 @@
 
     .nav {
         justify-content: space-between;
+    }
+
+    
+
+    .info-card-section {
+        display: grid;
+    }
+
+    .info-card {
+        margin-bottom: 55px;
+    }
+
+    .updates {
+        padding: 200px 30px;
     }
 }
 
