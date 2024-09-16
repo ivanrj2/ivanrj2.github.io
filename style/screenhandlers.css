@@ -68,6 +68,11 @@
         margin-bottom: 20px;
         padding: 40px 30px;
     }
+
+    .social-bubble{
+        width: 20px;
+        height: 20px;
+    }
 }
 
 
